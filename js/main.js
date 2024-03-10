@@ -40,7 +40,7 @@ function renderCar(car) {
     carElement.appendChild(carName);
 
     const carImage = document.createElement('img');
-    carImage.src = `../assets/img/${car.img}`;
+    carImage.src = `assets/img/${car.img}`;
     carImage.alt = car.name;
     carElement.appendChild(carImage);
 
